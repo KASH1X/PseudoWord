@@ -88,7 +88,7 @@ namespace PseudoWord
             if (selectFont != null)
             {
                 Font italicFont;
-                if (selectFont.Style == FontStyle.Bold)
+                if (selectFont.Style == FontStyle.Italic)
                 {
                     italicFont = new Font(selectFont, FontStyle.Regular);
 
@@ -109,7 +109,7 @@ namespace PseudoWord
             if (selectFont != null)
             {
                 Font underline;
-                if (selectFont.Style == FontStyle.Bold)
+                if (selectFont.Style == FontStyle.Underline)
                 {
                     underline = new Font(selectFont, FontStyle.Regular);
 
